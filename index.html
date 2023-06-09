@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WJ_Portfolio</title>
+
+    <!-- js -->
+    <script src="js/js.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="popup popup-1">
+      <div class="popup__content">
+        <div class="popup__head">
+          <div class="popup__btn_close"></div>
+        </div>
+        <div class="popup__body">
+          <img src="/imgs/sidmool_work.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="popup popup-2">
+      <div class="popup__content">
+        <div class="popup__head">
+          <div class="popup__btn_close"></div>
+        </div>
+        <div class="popup__body-2">
+          <img src="/imgs/ceramicist_work.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="popup popup-3">
+      <div class="popup__content">
+        <div class="popup__head">
+          <div class="popup__btn_close"></div>
+        </div>
+        <div class="popup__body-3">
+          <img src="/imgs/612_work.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="popup popup-4">
+      <div class="popup__content">
+        <div class="popup__head">
+          <div class="popup__btn_close"></div>
+        </div>
+        <div class="popup__body-4">
+          <img src="/imgs/illu_work.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- top버튼 -->
+    <p id="back-top">
+      <a href="#top"><span>🡡</span></a>
+    </p>
+
+    <div class="bg">
+      <div class="container scroll-container">
+        <!-- 스크롤 다운 박스 -->
+        <div class="scroll-down">
+          <div>✦</div>
+          <div class="line-bar">
+            <img src="/imgs/line.png" alt="" />
+          </div>
+          <div class="line-txt">Scroll Down</div>
+        </div>
+
+        <!-- 상단바 -->
+        <div class="top-box">
+          <div class="logo-box">
+            <a href="#"><img src="/imgs/logo.png" alt="" /></a>
+          </div>
+          <div class="icon-box">
+            <div class="contactme">
+              <span id="data-copy" class="data-copy"> CONTACT ME </span>
+              <input
+                type="hidden"
+                id="data-area"
+                class="data-area"
+                value="yywj999@gmail.com"
+              />
+              <div class="myemail">✉ You can copy my E-mail !</div>
+            </div>
+            <div class="menu-box">
+              <ul>
+                <li>
+                  <a href="#aboutme_area"><span>ABOUT ME</span></a>
+                </li>
+                <li>
+                  <a href="#work_area"><span>WORK</span></a>
+                  <div class="mention">By Click, Move Scroll ↓</div>
+                </li>
+              </ul>
+            </div>
+            <div class="menu-bar">
+              <div class="row">
+                <div class="three col">
+                  <div class="hamburger" id="hamburger-1">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 메인 텍스트 박스 -->
+        <div class="main-box">
+          <div class="txt-box">
+            <div class="txt-1">Web Designer</div>
+            <div class="txt-2">Portfolio.</div>
+          </div>
+          <div class="circle-box">
+            <div class="ct-box">
+              <img src="/imgs/circle_txt_1.png" alt="" class="infinite" />
+            </div>
+          </div>
+        </div>
+
+        <div class="about-box hidden" id="aboutme_area">
+          <div class="about-title font-r">About Me</div>
+          <div class="about-content">
+            <ul>
+              <!-- 1 -->
+              <li>
+                <span class="twincle">✦</span>
+                <div class="li-line show">
+                  <span>Say Hello !</span>
+                </div>
+
+                <div class="lis">
+                  <div class="lis-space">
+                    <div class="hello-title">
+                      <p class="hello">
+                        <span>안녕하세요!</span>
+                        <img src="/imgs/sparkles.png" class="emoji" alt="" />
+                      </p>
+                      <p class="hello-2">신입 웹 디자이너 유우정입니다.</p>
+                    </div>
+
+                    <div class="hello-content">
+                      <p>
+                        저는 심플하고
+                        <b>직관적인 디자인</b>을 좋아합니다.
+                      </p>
+                      <p>
+                        또한 사용자 입장에서 고민하며 <b>더 편리한 디자인</b>을
+                        추구합니다.
+                      </p>
+                      <strong
+                        >'뜨거운 열정보다 중요한 것은 지속적인
+                        열정이다.'</strong
+                      >
+                      <p>지속적인 열정을 가지고 배움을 게을리하지 않으며</p>
+                      <p><b>꾸준히 성장하는</b> 웹 디자이너가 되고 싶습니다!</p>
+                    </div>
+
+                    <div class="mimoticon">
+                      <img src="/imgs/mymimo.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <!-- 2 -->
+              <li>
+                <span class="twincle">✦</span>
+                <div class="li-line show">
+                  <span>Qualification</span>
+                </div>
+
+                <div class="lis">
+                  <div class="lis-space">
+                    <div class="info">
+                      <p class="info-circle">
+                        <span>✓ 디자인 전공</span>
+                        <img src="/imgs/graduate.png" class="emoji" alt="" />
+                      </p>
+                      <p class="info-circle">
+                        <span>✓ 웹디자인 기능사 자격증 보유</span>
+                        <img src="/imgs/license.png" class="emoji" alt="" />
+                      </p>
+                    </div>
+                    <div class="img-box">
+                      <img src="/imgs/certificate2.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <span class="twincle">✦</span>
+                <div class="li-line show">
+                  <span>Tools</span>
+                </div>
+
+                <div class="lis">
+                  <div class="lis-space">
+                    <div class="tool-box">
+                      <div class="tool">
+                        <img src="/imgs/vscode.png" alt="" />
+                      </div>
+                      <div class="tool"><img src="/imgs/ps.png" alt="" /></div>
+                      <div class="tool"><img src="/imgs/ai.png" alt="" /></div>
+                      <div class="tool"><img src="/imgs/pr.png" alt="" /></div>
+                      <div class="tool">
+                        <img src="/imgs/figma.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="work-box hidden" id="work_area">
+          <div class="title-box">
+            <div class="title-img-box">
+              <img src="/imgs/work_circle.png" alt="" />
+              <span class="work-title font-r">Work</span>
+            </div>
+          </div>
+
+          <div class="work-content">
+            <!-- 1 -->
+            <ul>
+              <li>
+                <a href="#">
+                  <div class="work-img-box">
+                    <img src="/imgs/tiffany_img.png" alt="" />
+                    <div class="work-subject">Tiffany & Co.</div>
+                    <div class="work-kind">
+                      <p>Web</p>
+                      <p>Redesign</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="popup-btn popup-btn-1">
+                <div class="work-img-box">
+                  <img src="/imgs/sidmool_page.png" alt="" />
+                  <div class="work-subject">SIDMOOL</div>
+                  <div class="work-kind">
+                    <p>UI/UX</p>
+                    <p>Redesign</p>
+                  </div>
+                </div>
+              </li>
+              <li class="popup-btn popup-btn-2">
+                <div class="work-img-box">
+                  <img src="/imgs/ceramist.png" alt="" />
+                  <div class="work-subject">Ceramicist</div>
+                  <div class="work-kind">
+                    <p>Brochure</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <!-- 2 -->
+            <ul>
+              <li class="popup-btn popup-btn-3">
+                <div class="work-img-box">
+                  <img src="/imgs/studio612.png" alt="" />
+                  <div class="work-subject">Studio 612</div>
+                  <div class="work-kind">
+                    <p>Capstone</p>
+                    <p>Project</p>
+                  </div>
+                </div>
+              </li>
+              <li class="popup-btn popup-btn-4">
+                <div class="work-img-box">
+                  <img src="/imgs/poster.jpg" alt="" />
+                  <div class="work-subject">Illustration</div>
+                  <div class="work-kind">
+                    <p>Illustrator</p>
+                    <p>Poster</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="work-img-box">
+                    <img src="/imgs/kurly2.jpg" alt="" />
+                    <div class="work-subject">Market Kurly</div>
+                    <div class="work-kind kind-fff">
+                      <p>Clone</p>
+                      <p>Coding</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <!-- 3 -->
+            <ul>
+              <li>
+                <a href="#">
+                  <div class="work-img-box">
+                    <img src="/imgs/ktcloud3.png" alt="" />
+                    <div class="work-subject">KT Cloud</div>
+                    <div class="work-kind kind-fff">
+                      <p>Clone</p>
+                      <p>Coding</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="work-img-box">
+                    <img src="/imgs/tocobo2.png" alt="" />
+                    <div class="work-subject">TOCOBO</div>
+                    <div class="work-kind">
+                      <p>Clone</p>
+                      <p>Coding</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="work-img-box">
+                    <img src="/imgs/pb.jpg" alt="" />
+                    <div class="work-subject">Paris Baguette</div>
+                    <div class="work-kind">
+                      <p>Clone</p>
+                      <p>Coding</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <div class="last-bar">
+              <div>✦</div>
+              <div class="center-bar"></div>
+              <div>✦</div>
+            </div>
+          </div>
+        </div>
+        <footer>
+          <span>© 2023 Woojeong All rights reserved</span>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
