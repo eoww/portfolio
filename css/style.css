@@ -450,7 +450,7 @@ html {
 
 /* work box */
 .work-box {
-  padding-bottom: 50px;
+  padding: 50px 0;
 }
 .work-box > .title-box {
   display: flex;
