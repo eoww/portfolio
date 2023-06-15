@@ -118,8 +118,7 @@ html {
   align-items: center;
 }
 .top-box > .logo-box {
-  width: 50px;
-  height: 23px;
+  height: 40px;
 }
 .top-box > .logo-box > a > img {
   width: 100%;
